@@ -1,0 +1,153 @@
+/* ====== GLOBAL ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef1f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Wrapper */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #d0d7e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ====== HEADER & NAV ====== */
+header {
+    background-color: #2c3e50;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #f7d794;
+}
+
+/* ====== FORMS ====== */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c7ccd4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background: #fafafa;
+}
+
+input[type="submit"],
+button {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #3e546a;
+}
+
+/* ====== TABLES ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    background: #fff;
+}
+
+table th {
+    background-color: #f0f2f5;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #d0d7e1;
+}
+
+table td {
+    border-bottom: 1px solid #e1e6ed;
+    padding: 10px;
+}
+
+table tr:hover td {
+    background: #f9fbff;
+}
+
+/* ====== MESSAGES ====== */
+.success {
+    background: #d8f5dd;
+    color: #1e6e2d;
+    border: 1px solid #b4e5c0;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.error {
+    background: #f9d8d8;
+    color: #7d1b1b;
+    border: 1px solid #e6b1b1;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* ====== PAGINATION ====== */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    padding: 6px 12px;
+    margin: 0 4px;
+    background: #d8dee7;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.pagination a:hover {
+    background: #c5cbd5;
+}
